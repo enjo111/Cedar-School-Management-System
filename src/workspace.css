@@ -1,0 +1,1104 @@
+/* Workspace-only palette. Login deliberately retains its existing styles. */
+.app button:focus-visible,
+.app a:focus-visible {
+  outline: 3px solid #8ca7c9;
+}
+
+/* Increase dashboard text for comfortable reading. */
+.app { font-size: 16px; }
+.app .nav-label, .app .eyebrow { font-size: 11px; }
+.app nav button, .app .workspace strong, .app .profile strong { font-size: 13px; }
+.app .workspace small, .app .profile small, .app .date-label, .app .breadcrumb, .app .page-heading p { font-size: 12px; }
+.app .panel-heading p, .app .class-row span:not(.subject-icon), .app .class-detail, .app .teacher-name, .app .stat p { font-size: 11px; }
+.app .class-row strong, .app td strong, .app td, .app .person-cell strong { font-size: 13px; }
+.app th, .app .badge, .app .score, .app .attendance-options button { font-size: 11px; }
+.app .panel-footer, .app .full-notice footer, .app .cell-secondary, .app .form-note { font-size: 10px; }
+.app .text-button, .app .notice-link, .app .search-box input, .app label { font-size: 12px; }
+.app .growth-card p, .app .mini-notice > p { font-size: 12px; }
+.app .class-card h2, .app .full-notice h2 { font-size: 20px; }
+.app .modal > p, .app .roster-heading p, .app .roster-row strong { font-size: 14px; }
+.app .roster-row small, .app .optional { font-size: 11px; }
+@media (max-width: 680px) {
+  .app .stat p, .app .panel-heading p, .app .class-row span:not(.subject-icon) { font-size: 10px; }
+  .app .page-heading p { font-size: 12px; }
+  .app th, .app td, .app td strong { font-size: 12px; }
+  .app .text-button, .app .search-box input, .app label { font-size: 11px; }
+}
+.app input:focus,
+.app select:focus,
+.app textarea:focus {
+  outline: 2px solid #afbbc9;
+}
+.app .sidebar {
+  background: #fff;
+}
+.app .brand-icon {
+  color: #374c65;
+}
+.app .brand-dot {
+  color: #6d839e;
+}
+.app .workspace {
+  background: #f9fafc;
+}
+.app .school-icon {
+  border: 1px solid #d7dde4;
+  background: #e7ecf2;
+}
+.app .workspace-indicator {
+  background: #577191;
+}
+.app .nav-label {
+  color: #8c9eb3;
+}
+.app nav button {
+  color: #637994;
+}
+.app nav button.selected {
+  background: #e4eaf1;
+  color: #344253;
+}
+.app nav button:hover {
+  background: #edf1f5;
+}
+.app .nav-count {
+  background: #e7ecf2;
+  border: 1px solid #dce1e8;
+}
+.app .semester {
+  background: #eff2f6;
+  border: 1px solid #e1e7ef;
+  color: #677d99;
+}
+.app .semester-dot,
+.app .live-dot {
+  background: #657e9d;
+}
+.app .semester p {
+  color: #435264;
+}
+.app .semester > svg {
+  color: #8a9cb1;
+}
+.app .avatar {
+  background: #d6e0ec;
+  color: #76624b;
+}
+.app .avatar.pastel {
+  background: #e8ecf2;
+  color: #4f6177;
+}
+.app .profile small {
+  color: #8194ab;
+}
+.app .profile button {
+  color: #788ca5;
+}
+.app .topbar {
+  background: #fff;
+}
+.app .breadcrumb {
+  color: #8093ab;
+}
+.app .breadcrumb strong {
+  color: #455568;
+}
+.app .breadcrumb svg {
+  color: #a9b6c6;
+}
+.app .date-label {
+  color: #758aa3;
+}
+.app .icon-button {
+  color: #677d99;
+}
+.app .icon-button:hover {
+  background: #ebf0f4;
+}
+.app .notification i {
+  background: #6a88ad;
+}
+.app .eyebrow {
+  color: #7f92a9;
+}
+.app .eyebrow span {
+  color: #b4bfcd;
+}
+.app .greeting-dot {
+  color: #788ca5;
+}
+.app .page-heading p {
+  color: #798da5;
+}
+.app .primary {
+  background: #25374e;
+  box-shadow: 0 2px 2px #19283a10;
+}
+.app .primary:hover {
+  background: #182a3f;
+}
+.app .secondary {
+  background: #fff;
+  border: 1px solid #d7dde5;
+  color: #47576b;
+}
+.app .secondary:hover {
+  background: #edf1f6;
+}
+.app .destructive {
+  background: #a3463d;
+}
+.app .welcome-banner {
+  border: 1px solid #d5dde7;
+  background: #e1e8f1;
+}
+.app .banner-label {
+  color: #677e9a;
+}
+.app .banner-label > span {
+  background: #778ba4;
+}
+.app .welcome-banner h2 {
+  color: #384453;
+}
+.app .welcome-banner p {
+  color: #6d839d;
+}
+.app .welcome-banner button {
+  color: #445569;
+}
+.app .art-orbit {
+  border: 1px solid #ccd7e4;
+}
+.app .art-stem {
+  background: #758aa4;
+}
+.app .art-leaf {
+  background: #8b9fb8;
+}
+.app .leaf-two {
+  background: #9caec5;
+}
+.app .leaf-three {
+  background: #6b819c;
+}
+.app .art-star {
+  color: #8396ad;
+}
+.app .art-spark {
+  color: #92a2b6;
+}
+.app .banner-index {
+  color: #889aaf;
+}
+.app .stat {
+  background: #fff;
+}
+.app .stat > div {
+  color: #6e849f;
+}
+.app .green {
+  background: #e7ecf3;
+  color: #566d8a;
+}
+.app .purple {
+  background: #f1eef7;
+  color: #a08bb4;
+}
+.app .orange {
+  background: #fcf1e5;
+  color: #c09760;
+}
+.app .blue {
+  background: #edf2f8;
+  color: #809bb6;
+}
+.app .stat p {
+  color: #8799af;
+}
+.app .stat p svg {
+  color: #748caa;
+}
+.app .panel {
+  background: #fff;
+}
+.app .panel-heading p {
+  color: #889aaf;
+}
+.app .count {
+  border: 1px solid #dfe3e9;
+  background: #f1f4f7;
+  color: #6e849e;
+}
+.app .text-button {
+  color: #5b7089;
+}
+.app .class-row {
+  border-top: 1px solid #ebeff4;
+}
+.app .class-row span:not(.subject-icon) {
+  color: #8698af;
+}
+.app .class-row i {
+  color: #b3bfcd;
+}
+.app .class-row-right strong {
+  color: #6b819c;
+}
+.app .class-row > svg {
+  color: #a2b0c1;
+}
+.app .class-row:hover {
+  background: #f9fafc;
+}
+.app .panel-footer {
+  background: #fafbfd;
+  border-top: 1px solid #e6ebf1;
+  color: #7c90a8;
+}
+.app .panel-footer > span:last-child {
+  color: #97a6b9;
+}
+.app .notices-panel .panel-heading > svg {
+  color: #95a5b8;
+}
+.app .mini-notice {
+  border-top: 1px solid #e8edf3;
+}
+.app .mini-notice > p {
+  color: #8093aa;
+}
+.app .mini-notice > div {
+  color: #9aa9bb;
+}
+.app .notice-link {
+  color: #657c98;
+}
+.app .growth-card {
+  background: #e8ecf2;
+  border: 1px solid #d8e0e9;
+}
+.app .growth-icon {
+  color: #788ca5;
+}
+.app .growth-card p {
+  color: #798da5;
+}
+.app .growth-decoration {
+  color: #d3dce7;
+}
+.app th {
+  background: #f8f9fb;
+  color: #8799af;
+  border-top: 1px solid #e6ebf2;
+  border-bottom: 1px solid #e6ebf2;
+}
+.app td {
+  border-bottom: 1px solid #ebeff4;
+  color: #7086a0;
+}
+.app td strong {
+  color: #445365;
+}
+.app .cell-secondary {
+  color: #8e9fb4;
+}
+.app .score.red {
+  background: #f9ece7;
+  color: #b27868;
+}
+.app .page-footer {
+  color: #95a5b9;
+}
+.app .tabs button {
+  color: #8395ac;
+}
+.app .tabs button.active {
+  background: #e7ecf2;
+  color: #4c5e74;
+}
+.app .search-box {
+  color: #8a9cb1;
+  background: #fff;
+}
+.app .badge {
+  background: #ebeff4;
+  border: 1px solid #dfe4ea;
+  color: #6b829d;
+}
+.app .badge.present {
+  background: #e5ecf4;
+  color: #4b6686;
+}
+.app .badge.absent {
+  background: #f9eae5;
+  color: #b57868;
+}
+.app .badge.late {
+  background: #dceafc;
+  color: #4573ab;
+}
+.app .danger {
+  color: #ac8273;
+}
+.app .section-tools {
+  color: #7d90a8;
+}
+.app .teacher-name {
+  color: #8395ac;
+}
+.app .class-detail {
+  color: #778ca5;
+}
+.app .class-card-bottom > span {
+  color: #768ba4;
+}
+.app .attendance-options button {
+  border: 1px solid #e1e7ef;
+  color: #8799af;
+}
+.app .attendance-options button.active.present {
+  background: #e3eaf2;
+  color: #4c6584;
+  border-color: #b8c7d9;
+}
+.app .attendance-options button.active.absent {
+  background: #f8e9e3;
+  color: #b07864;
+  border-color: #e7c8b8;
+}
+.app .attendance-options button.active.late {
+  background: #dceafb;
+  color: #4972a5;
+  border-color: #b1cae9;
+}
+.app .attendance-footer p {
+  color: #657c98;
+}
+.app .attendance-footer p span {
+  color: #91a2b6;
+}
+.app .full-notice > p {
+  color: #768aa3;
+}
+.app .full-notice footer {
+  color: #8799af;
+}
+.app .empty {
+  color: #8fa0b5;
+}
+.app .alert {
+  background: #faf0ea;
+  border: 1px solid #efdcd0;
+  color: #a36550;
+}
+.app .toast {
+  background: #25374e;
+  box-shadow: 0 6px 30px #18273930;
+}
+.app .modal-backdrop {
+  background: #1d263065;
+}
+.app .modal {
+  background: #fff;
+  box-shadow: 0 25px 100px #1d26303d;
+}
+.app .modal > p {
+  color: #7187a1;
+}
+.app label {
+  color: #607690;
+}
+.app input,
+.app select,
+.app textarea {
+  border: 1px solid #d8dee5;
+  background: #fbfcfe;
+  color: #404f61;
+}
+.app input::placeholder,
+.app textarea::placeholder {
+  color: #9fadbf;
+}
+.app .form-note {
+  color: #8799af;
+}
+.app .optional {
+  color: #a0aebf;
+}
+.app .roster-heading p {
+  color: #7f92a9;
+}
+.app .roster-row small {
+  color: #91a2b6;
+}
+.app .boot {
+  color: #5b718b;
+}
+.app .login-story {
+  background: #dce4ee;
+}
+.app .login-story h1 {
+  color: #374352;
+}
+.app .login-story h1 em {
+  color: #7489a3;
+}
+.app .login-story p {
+  color: #7489a2;
+}
+.app .login-story > small {
+  color: #7f92aa;
+}
+.app .login-illustration {
+  color: #7d91a9;
+}
+.app .login-illustration > span {
+  color: #9fb2c9;
+}
+.app .login-form > div > p {
+  color: #8496ad;
+}
+.app .demo-box {
+  border: 1px solid #d9e0e8;
+  background: #eff3f8;
+}
+.app .demo-box p {
+  color: #8295ac;
+}
+.app .demo-box button {
+  border: 1px solid #d0d9e5;
+  background: #fff;
+  color: #6c829d;
+}
+.app .demo-box button:hover {
+  background: #d9e3ef;
+}
+.app .demo-box small {
+  color: #95a5b8;
+}
+.app .login-foot {
+  color: #92a2b6;
+}
+.app .scrim {
+  background: #20293555;
+}
+
+/* Navy, cobalt, sky and ice blue, from the supplied palette. */
+.app {
+  --border: #dbe4ef;
+  --green: #075b9d;
+  --muted: #65778d;
+  background: #edf2f9;
+  color: #1d3659;
+  font-size: 15px;
+}
+.app .sidebar {
+  background: #1d3659;
+  border-right: 0;
+  padding-top: 30px;
+}
+.app .brand {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  gap: 11px;
+}
+.app .brand-icon {
+  transform: none;
+  color: #5bc0de;
+  background: #29476c;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.app .brand-dot {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 1px;
+  font-size: 9px;
+  color: #9ee0ef;
+  align-self: flex-end;
+  margin: 0 0 5px -3px;
+  white-space: nowrap;
+}
+.app .workspace {
+  background: #254469;
+  border: 1px solid #385578;
+  margin-top: 30px;
+}
+.app .workspace strong {
+  color: #f0f6ff;
+  font-size: 12px;
+}
+.app .workspace small {
+  color: #afc4df;
+}
+.app .school-icon {
+  background: #36567c;
+  border-color: #45678f;
+  color: #9ee0ef;
+}
+.app .workspace-indicator {
+  background: #5bc0de;
+}
+.app .nav-label {
+  color: #8fa9cb;
+}
+.app nav button {
+  color: #c0d0e5;
+  font-size: 12px;
+  padding: 13px;
+  border-radius: 6px;
+}
+.app nav button.selected {
+  background: #075b9d;
+  color: #fff;
+  box-shadow: inset 3px 0 #5bc0de;
+}
+.app nav button:hover {
+  background: #2a4b72;
+}
+.app nav button.selected:hover {
+  background: #075b9d;
+}
+.app .nav-count {
+  background: #37567d;
+  border-color: #456388;
+  color: #d2eafd;
+}
+.app .semester {
+  background: #234368;
+  border-color: #3a587d;
+  color: #88cce8;
+  border-radius: 6px;
+}
+.app .semester p {
+  color: #e1eeff;
+  font-weight: 500;
+}
+.app .semester > svg {
+  color: #5bc0de;
+  transform: none;
+}
+.app .semester-dot {
+  background: #5bc0de;
+}
+.app .profile {
+  border-top-color: #385477;
+}
+.app .profile strong {
+  color: #edf5ff;
+}
+.app .profile small {
+  color: #9eb5d3;
+}
+.app .profile button {
+  color: #a5c7e7;
+}
+.app .avatar {
+  background: #dce9fa;
+  color: #315584;
+}
+.app .avatar.pastel {
+  background: #e3edf9;
+  color: #315584;
+}
+.app .topbar {
+  background: #f8fbff;
+  border-color: #dbe4ef;
+}
+.app .breadcrumb {
+  color: #71869f;
+}
+.app .breadcrumb strong {
+  color: #1d3659;
+}
+.app .topbar .avatar {
+  background: #1d3659;
+  color: #b5e8f5;
+}
+.app .notification i {
+  background: #075b9d;
+}
+.app .date-label {
+  color: #526f90;
+}
+.app .eyebrow {
+  color: #587494;
+  font-size: 10px;
+}
+.app h1 {
+  color: #1d3659;
+  font-weight: 750;
+  letter-spacing: -0.8px;
+}
+.app .greeting-dot {
+  color: #075b9d;
+}
+.app .page-heading p {
+  color: #5d7390;
+  font-size: 13px;
+}
+.app .button {
+  font-size: 12px;
+  border-radius: 6px;
+}
+.app .primary {
+  background: #075b9d;
+  color: #fff;
+  box-shadow: 0 3px 7px #075b9d1a;
+}
+.app .primary:hover {
+  background: #074a80;
+}
+.app .secondary {
+  border-color: #cddbef;
+  background: #f8fbff;
+  color: #315b8a;
+}
+.app .text-button {
+  color: #075b9d;
+  font-size: 11px;
+}
+.app .workspace-summary {
+  background: #1d3659;
+  border-radius: 9px;
+  border: 1px solid #234972;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 23px;
+  padding: 27px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  min-height: 215px;
+  color: #fff;
+}
+.app .summary-kicker {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 1.7px;
+  font-weight: 700;
+  color: #9ee0ef;
+}
+.app .workspace-summary h2 {
+  font-size: 30px;
+  letter-spacing: -0.8px;
+  font-weight: 700;
+  margin: 12px 0 10px;
+  color: #fff;
+}
+.app .workspace-summary p {
+  max-width: 490px;
+  font-size: 12px;
+  color: #c4d8ed;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+.app .summary-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.app .summary-actions .button {
+  background: #5bc0de;
+  color: #132f52;
+  font-size: 11px;
+  gap: 10px;
+  padding: 10px 13px;
+}
+.app .summary-link {
+  color: #d3edff;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  padding: 0;
+}
+.app .summary-graphic {
+  align-self: center;
+  width: 220px;
+  padding: 18px;
+  border-radius: 10px;
+  background: #27466a;
+  border: 1px solid #4c6a8d;
+  transform: rotate(-5deg);
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+.app .graphic-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9ee0ef;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.app .graphic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+}
+.app .graphic-grid span {
+  height: 21px;
+  background: #43658b;
+  border-radius: 3px;
+}
+.app .graphic-grid span:nth-child(3n) {
+  background: #5bc0de;
+}
+.app .graphic-grid span:nth-child(5n) {
+  background: #9ee0ef;
+}
+.app .graphic-grid span:nth-child(7n) {
+  background: #075b9d;
+}
+.app .graphic-caption {
+  display: block;
+  color: #b3d0ed;
+  font-size: 7px;
+  letter-spacing: 1.4px;
+  margin-top: 13px;
+}
+.app .panel,
+.app .stat {
+  background: #fafdff;
+  border-color: #dbe4ef;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px #1d365904;
+}
+.app .stat {
+  border-top: 3px solid #075b9d;
+}
+.app .stat:nth-child(2) {
+  border-top-color: #3e83b8;
+}
+.app .stat:nth-child(3) {
+  border-top-color: #5bc0de;
+}
+.app .stat:nth-child(4) {
+  border-top-color: #9edfee;
+}
+.app .stat > strong {
+  color: #1d3659;
+  font-weight: 700;
+}
+.app .stat > div {
+  color: #586d89;
+}
+.app .stat p {
+  color: #667d98;
+  font-size: 10px;
+}
+.app .stat p svg {
+  color: #2383b0;
+}
+.app .green,
+.app .purple,
+.app .orange,
+.app .blue {
+  background: #dfedf9;
+  color: #075b9d;
+}
+.app .purple {
+  background: #e4eaf8;
+  color: #536d9b;
+}
+.app .orange {
+  background: #e3f4fa;
+  color: #2686ae;
+}
+.app .blue {
+  background: #dceef4;
+  color: #236f8c;
+}
+.app .score.orange {
+  background: #fff1d6;
+  color: #8e6519;
+}
+.app .score.red {
+  background: #fce8e8;
+  color: #a13c46;
+}
+.app .panel-heading h2 {
+  font-size: 15px;
+  color: #1d3659;
+}
+.app .panel-heading p {
+  font-size: 11px;
+  color: #667d98;
+}
+.app .class-row {
+  border-top-color: #e4edf6;
+}
+.app .class-row:hover {
+  background: #f0f6fd;
+}
+.app .class-row strong {
+  color: #264667;
+  font-size: 12px;
+}
+.app .class-row span:not(.subject-icon) {
+  color: #667d98;
+  font-size: 10px;
+}
+.app .class-row-right strong {
+  font-size: 10px;
+  color: #416b98;
+}
+.app .count,
+.app .badge {
+  background: #e6effa;
+  border-color: #d2e1f3;
+  color: #3d6696;
+}
+.app .panel-footer {
+  background: #f0f5fc;
+  border-top-color: #dbe4ef;
+  color: #587aa0;
+}
+.app .panel-footer > span:last-child {
+  color: #7189a5;
+}
+.app .live-dot {
+  background: #2488b7;
+}
+.app .mini-notice h3 {
+  color: #1d3659;
+}
+.app .mini-notice > p {
+  color: #637994;
+  font-size: 11px;
+}
+.app .mini-notice > div {
+  color: #6a85a3;
+}
+.app .notice-link {
+  color: #075b9d;
+  background: #f0f5fc;
+}
+.app .growth-card {
+  background: #dfeef9;
+  border: 1px solid #c9dfef;
+  box-shadow: inset 0 4px #5bc0de;
+  border-radius: 8px;
+}
+.app .growth-icon {
+  color: #075b9d;
+}
+.app .growth-card .summary-kicker {
+  color: #436e99;
+  font-size: 8px;
+  margin-bottom: 12px;
+}
+.app .growth-card h3 {
+  color: #1d3659;
+  font-size: 20px;
+  font-weight: 700;
+}
+.app .growth-card p {
+  color: #547493;
+  font-size: 12px;
+}
+.app .growth-card .text-button {
+  color: #075b9d;
+}
+.app .page-footer {
+  color: #6d85a1;
+}
+.app th {
+  background: #eaf1fa;
+  color: #557399;
+  border-color: #d8e4f2;
+  font-weight: 650;
+  font-size: 9px;
+}
+.app td {
+  color: #607795;
+  border-bottom-color: #e4edf6;
+  font-size: 12px;
+}
+.app td strong {
+  color: #29496e;
+  font-size: 12px;
+}
+.app .cell-secondary {
+  color: #7186a0;
+  font-size: 9px;
+}
+.app .tabs button.active {
+  background: #075b9d;
+  color: #fff;
+}
+.app .search-box {
+  background: #fafdff;
+  border-color: #d1dfef;
+}
+.app input,
+.app select,
+.app textarea {
+  background: #fafdff;
+  border-color: #cddcec;
+  color: #274b76;
+}
+.app label {
+  color: #46678e;
+}
+.app input::placeholder,
+.app textarea::placeholder {
+  color: #7c94b2;
+}
+.app :is(input, select, textarea):focus {
+  outline: 2px solid #5bc0de;
+}
+.app :is(button, a):focus-visible {
+  outline: 3px solid #5bc0de;
+}
+.app .class-card h2,
+.app .full-notice h2 {
+  color: #1d3659;
+}
+.app .class-detail,
+.app .teacher-name,
+.app .full-notice > p {
+  color: #617d9b;
+}
+.app .attendance-options button {
+  color: #587697;
+  border-color: #d4e0ee;
+}
+.app .attendance-options button.active.present,
+.app .badge.present {
+  background: #def0fc;
+  color: #075b9d;
+  border-color: #a6cfe9;
+}
+.app .attendance-options button.active.absent,
+.app .badge.absent {
+  background: #fde9ed;
+  color: #a54258;
+  border-color: #efc4ce;
+}
+.app .attendance-options button.active.late,
+.app .badge.late {
+  background: #fff3da;
+  color: #8e681c;
+  border-color: #ebd5a7;
+}
+.app .attendance-footer p {
+  color: #456b97;
+}
+.app .attendance-footer p span {
+  color: #7189a6;
+}
+.app .modal-backdrop {
+  background: #11274480;
+}
+.app .modal {
+  background: #fafdff;
+  box-shadow: 0 25px 100px #132d5140;
+}
+.app .modal-heading h2 {
+  color: #1d3659;
+}
+.app .modal > p,
+.app .form-note {
+  color: #5e7796;
+}
+.app .toast {
+  background: #075b9d;
+  color: #fff;
+}
+.app .empty {
+  color: #6884a6;
+}
+.app .scrim {
+  background: #10274470;
+}
+@media (max-width: 1200px) {
+  .app .summary-graphic {
+    width: 170px;
+    margin-right: 0;
+  }
+  .app .workspace-summary {
+    padding: 25px;
+  }
+  .app .stat p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 950px) {
+  .app .summary-graphic {
+    display: none;
+  }
+  .app .workspace-summary {
+    min-height: 195px;
+  }
+  .app .page-heading > .button {
+    font-size: 0;
+  }
+  .app .workspace-summary h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 680px) {
+  .app .workspace-summary {
+    padding: 22px;
+    min-height: 0;
+  }
+  .app .workspace-summary h2 {
+    font-size: 26px;
+  }
+  .app .summary-actions {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .app .workspace-summary p {
+    font-size: 11px;
+  }
+  .app .summary-actions .button,
+  .app .summary-link {
+    font-size: 10px;
+  }
+  .app .brand {
+    font-size: 25px;
+  }
+  .app .page-heading p {
+    font-size: 12px;
+  }
+  .app .stat > div {
+    font-size: 10px;
+  }
+  .app .stat p {
+    font-size: 8px;
+  }
+  .app .stat {
+    padding: 14px 12px;
+  }
+  .app .class-row-right {
+    display: none;
+  }
+}
+
+/* Final readable type overrides. */
+.app { font-size: 16px; }
+.app .nav-label, .app .eyebrow { font-size: 11px; }
+.app nav button, .app .workspace strong, .app .profile strong { font-size: 13px; }
+.app .workspace small, .app .profile small, .app .date-label, .app .breadcrumb, .app .page-heading p { font-size: 12px; }
+.app .panel-heading p, .app .class-row span:not(.subject-icon), .app .class-detail, .app .teacher-name, .app .stat p { font-size: 11px; }
+.app .class-row strong, .app td strong, .app td, .app .person-cell strong { font-size: 13px; }
+.app th, .app .badge, .app .score, .app .attendance-options button { font-size: 11px; }
+.app .panel-footer, .app .full-notice footer, .app .cell-secondary, .app .form-note { font-size: 10px; }
+.app .text-button, .app .notice-link, .app .search-box input, .app label { font-size: 12px; }
+.app .growth-card p, .app .mini-notice > p { font-size: 12px; }
+.app .class-card h2, .app .full-notice h2 { font-size: 20px; }
+.app .modal > p, .app .roster-heading p, .app .roster-row strong { font-size: 14px; }
+.app .roster-row small, .app .optional { font-size: 11px; }
+@media (max-width: 680px) {
+  .app .stat p, .app .panel-heading p, .app .class-row span:not(.subject-icon) { font-size: 10px; }
+  .app .page-heading p { font-size: 12px; }
+  .app th, .app td, .app td strong { font-size: 12px; }
+  .app .text-button, .app .search-box input, .app label { font-size: 11px; }
+}
